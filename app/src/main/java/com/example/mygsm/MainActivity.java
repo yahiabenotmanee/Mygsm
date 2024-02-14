@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
-                String number = phoneNumberEditText.getText().toString();
-                // number = "0657105771";
+                String number ; //= phoneNumberEditText.getText().toString();
+                number = "0657105771";
 
                 if (number.isEmpty()){
                     Toast.makeText(getApplicationContext(), "No number , please try again.", Toast.LENGTH_LONG).show();
