@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.black));
         Switch smsSwitch = findViewById(R.id.smsSwitch);
-        phoneNumberEditText = findViewById(R.id.phoneNumberEditText);
+       // phoneNumberEditText = findViewById(R.id.phoneNumberEditText);
 
         smsSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
