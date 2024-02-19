@@ -38,13 +38,11 @@ public class MainActivity extends AppCompatActivity {
 
                 }else {
                     if (isChecked) {
-                        sendSMS("RELAY ON", number);
+                       // sendSMS("RELAY ON", number);
                     } else {
-                        sendSMS("RELAY OFF",number);
+                        //sendSMS("RELAY OFF",number);
                     }
                 }
-
-
             }
         });
 
