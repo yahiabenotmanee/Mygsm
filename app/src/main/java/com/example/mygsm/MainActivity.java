@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
                 }else {
                     if (isChecked) {
-                        sendSMS("on", number);
+                        sendSMS("RELAY ON", number);
                     } else {
-                        sendSMS("off",number);
+                        sendSMS("RELAY OFF",number);
                     }
                 }
 
